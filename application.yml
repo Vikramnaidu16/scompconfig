@@ -26,6 +26,6 @@ management:
 
 logging:
   pattern:
-    correlation: "%5p [${spring.application.name}, traceId=%X{traceId}, spanId=%X{spanId}]"
+    correlation: "[${spring.application.name},traceId=%X{traceId},spanId=%X{spanId}]"
 
 
